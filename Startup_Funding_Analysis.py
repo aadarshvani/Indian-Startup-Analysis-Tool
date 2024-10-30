@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(layout='wide', page_title='Startup Analysis')
 
 # Load data from the CSV file
-df = pd.read_csv("D:\\DSMP\\Week 7 - Advance Pandas\\Streamlit\\startup_cleaned.csv")
+df = pd.read_csv("startup_cleaned.csv")
 
 # Sidebar title
 st.sidebar.title("Startup Funding Analysis")
