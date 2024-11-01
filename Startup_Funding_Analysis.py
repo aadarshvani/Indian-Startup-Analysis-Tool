@@ -9,6 +9,8 @@ st.set_page_config(layout='wide', page_title='Startup Analysis')
 # Load data from the CSV file
 df = pd.read_csv("startup_cleaned.csv")
 
+st.title('Startup & Investor Dashboard')
+
 # Sidebar title
 st.sidebar.title("Startup Funding Analysis")
 
